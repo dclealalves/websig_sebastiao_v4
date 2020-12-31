@@ -474,6 +474,8 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	padding: 1px;
 	text-align: left;
 	border-radius: 12px;
+	min-height: 600px !important;
+	min-width: 600px !important;
 	}
 .leaflet-popup-content {
 	margin: 13px 19px;
@@ -528,9 +530,11 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	color: #999;
 	}
 .leaflet-popup-scrolled {
-	overflow: auto;
-	border-bottom: 1px solid #ddd;
-	border-top: 1px solid #ddd;
+	overflow: hidden;
+	border-bottom: none;
+	border-top: none;
+	height: 600px !important;
+	width: 600px !important;
 	}
 
 .leaflet-oldie .leaflet-popup-content-wrapper {
